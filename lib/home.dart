@@ -91,7 +91,7 @@ class Home extends StatelessWidget {
                       ],
                     ),
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 20,
                   ),
                   Row(
@@ -107,13 +107,13 @@ class Home extends StatelessWidget {
                       )
                     ],
                   ),
-                  SizedBox(
+                  const SizedBox(
                     height: 10,
                   ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text(
+                      const Text(
                         'SUNEEL KUMAR',
                         style: TextStyle(
                           color: Colors.grey,
@@ -139,7 +139,7 @@ class Home extends StatelessWidget {
             ),
           ),
         ),
-        Align(
+        const Align(
           alignment: Alignment.bottomCenter,
           child: Text(""),
         )
